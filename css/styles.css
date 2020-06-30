@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+
+  }
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat' sans-serif;
+  color: #66BFBF;
+  font-size: 1.75rem;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat' sans-serif;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat' sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+p {
+  color: #40514E;
+  line-height: 2;
+}
+
+hr {
+  margin: 100px auto;
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 6%;
+}
+
+
+.top-container {
+  background-color: #e0ebe8;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+ margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.intro-text {
+  margin: auto;
+  width: 30%
+}
+
+.footer-link {
+  text-decoration: none;
+}
+
+.contact-me {
+  margin: 40px auto 60px;
+  width: 40%;
+}
+
+.copyright {
+  color: white;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.myButton {
+    box-shadow: 0 1px 0 0 #f0f7fa;
+    background: linear-gradient(to bottom, #66bfbf 5%, #11999e 100%);
+    background-color: #66bfbf;
+    border-radius: 10px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: 'Montserrat' sans-serif;
+    font-size: 18px;
+    padding: 8px 21px;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 #5b6178;
+    margin: 30px auto 60px auto;
+}
+
+.work-in-progress {
+  font-weight: normal;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.profile-img {
+  width: 25%;
+  padding-top: 30px;
+}
+
+.thinking-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.adventure-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
